@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.homework">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:networkSecurityConfig="@xml/network_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="王茂富20171787"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homework"
+        tools:targetApi="n">
+        <activity
+            android:name=".XMLActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JSonActivity"
+            android:exported="true"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".LocalActivity"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SigninActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.Signin" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InputActivity"
+            android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
