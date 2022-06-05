@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#41b1e2"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SigninActivity"
+    android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="190dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="欢迎注册物流管理系统"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center"
+        tools:ignore="ExtraText">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="69dp"
+            android:layout_height="59dp"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="73dp"
+            tools:layout_editor_absoluteY="256dp" />
+
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="219dp"
+            android:layout_height="57dp"
+            android:background="@color/white"
+            android:hint="请输入登录名"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColorHint="#95A1AA"
+            tools:ignore="MissingConstraints"
+
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="256dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="56dp"
+            android:layout_height="84dp"
+            app:srcCompat="@android:drawable/ic_lock_idle_lock"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="365dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="请输入密码"
+            android:inputType="textPassword"
+
+            android:maxLines="1"
+            android:textColorHint="#95A1AA"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="219dp"
+            tools:layout_editor_absoluteY="366dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:gravity="center">
+    <EditText
+        android:id="@+id/invite"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="请输入邀请码"
+        android:inputType="number"
+
+        android:maxLines="1"
+        android:textColorHint="#95A1AA"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="143dp"
+            android:layout_height="59dp"
+            android:background="@android:color/transparent"
+            android:text="注册"
+            android:textSize="24dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="72dp"
+            tools:layout_editor_absoluteY="501dp" />
+
+        <Button
+            android:id="@+id/backToLogin"
+            android:layout_width="143dp"
+            android:layout_height="50dp"
+
+            android:width="10dp"
+            android:background="@android:color/transparent"
+            android:text="返回登录"
+            android:textSize="24dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="258dp"
+            tools:layout_editor_absoluteY="501dp" />
+    </LinearLayout>
+</LinearLayout>

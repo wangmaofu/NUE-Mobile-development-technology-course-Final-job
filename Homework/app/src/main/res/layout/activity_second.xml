@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#41b1e2"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".SecondActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="物流管理系统V2.0"
+
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="61dp"
+            android:layout_height="49dp"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="74dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="63dp"
+            android:layout_height="34dp"
+            app:srcCompat="@android:drawable/ic_lock_idle_lock"
+            tools:ignore="MissingConstraints,ImageContrastCheck"
+            tools:layout_editor_absoluteX="78dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <TextView
+            android:id="@+id/password1"
+            android:layout_width="205dp"
+            android:layout_height="32dp"
+            android:background="@color/white"
+            android:ems="10"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="325dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:width="10dp"
+        android:background="@android:color/transparent"
+        android:text="录入运单"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="496dp" />
+    <Button
+        android:id="@+id/query_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:width="10dp"
+        android:background="@android:color/transparent"
+        android:text="查询本地运单"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <Button
+        android:id="@+id/query_company_XML"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:width="10dp"
+        android:background="@android:color/transparent"
+        android:text="查询公司运单XML"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="496dp" />
+    <Button
+        android:id="@+id/query_company_JSon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:width="10dp"
+        android:background="@android:color/transparent"
+        android:text="查询公司运单JSon"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="496dp" />
+    <Button
+        android:id="@+id/change_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:width="10dp"
+        android:background="@android:color/transparent"
+        android:text="切换用户"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="496dp" />
+
+
+
+    <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="16dp"
+            android:width="10dp"
+            android:background="@android:color/transparent"
+            android:text="退出"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="496dp" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#41b1e2"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".SecondActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="本地录入（沈阳始发）"
+
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="单号:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/id"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@drawable/shapefile"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="到站:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/aim"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@drawable/shapefile"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="发货人："
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/send"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="发货人电话:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/sendTel"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="收货人:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/receive"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="收货人电话:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/receiveTel"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="货物名称:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@drawable/shapefile"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="件数:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@drawable/shapefile"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="已付运费:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/money1"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="49dp"
+            android:background="@android:color/transparent"
+            android:text="到付运费:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/money2"
+            android:layout_width="203dp"
+            android:layout_height="33dp"
+            android:background="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="233dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/save"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="16dp"
+            android:width="10dp"
+            android:background="@android:color/transparent"
+            android:text="保存"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="496dp" />
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="16dp"
+            android:width="10dp"
+            android:background="@android:color/transparent"
+            android:text="退出"
+            android:textSize="22dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="496dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
